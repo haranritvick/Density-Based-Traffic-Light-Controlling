@@ -1,14 +1,14 @@
-#define BLYNK_TEMPLATE_ID "TMPL3nZ3AdpkD"
-#define BLYNK_TEMPLATE_NAME "traffic light controlling"
-#define BLYNK_AUTH_TOKEN "VKsYczcok_wb2hwzsExMWRdKXetqjt2s"
+#define BLYNK_TEMPLATE_ID "YOUR_ID"
+#define BLYNK_TEMPLATE_NAME "YOUR_TEMPLATE_NAME"
+#define BLYNK_AUTH_TOKEN "YOUR_TOKEN"
  
 #include <WiFi.h>
 #include <WiFiClient.h>
 #include <BlynkSimpleEsp32.h>
  
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "vishnu";
-char pass[] = "vishnu@2003";
+char ssid[] = "WIFI_NAME";
+char pass[] = "WIFI_PASSWORD";
  
 // GPIO pins for each traffic signal light (red, yellow, green)
 int signal1[] = {26, 25, 33};
